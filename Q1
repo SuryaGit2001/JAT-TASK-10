@@ -25,6 +25,7 @@ public class DatePickerAutomation {
 		
 		String selectedDate = input.getAttribute("value");
         System.out.println("Selected Date: " + selectedDate);
+driver.quit();
 			
 	}
 	public static void datepicker(String date)
